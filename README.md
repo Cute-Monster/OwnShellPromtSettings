@@ -9,4 +9,5 @@ Every folder contain its own `README.md` file with description, installation ste
 1) [Windows Terminal Setiings](./WindowsTerminal/)
 2) [ZSH Settings](./ZSH/)
 3) [PowerShell Settings](./PowerShell/)
+4) [Tmux Settings](./Tmux/)
 
