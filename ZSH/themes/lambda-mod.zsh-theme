@@ -20,6 +20,8 @@ function check_git_prompt_info() {
     fi
 }
 _venv_info_prompt() { [[ -n ${VIRTUAL_ENV} ]] && echo "$FG[242](%{$FG[159]%}$(basename $VIRTUAL_ENV)$FG[242])%{$reset_color%} "; }
+_prompt_python_version() { [[ -n ${VIRTUAL_ENV} ]] && echo "%{$FG[102]%}using%{$FG[123]%} `$VIRTUAL_ENV/bin/python --version 2>&1`%{$reset_color%} "; }
+
 function get_right_prompt() {
     if type git &>/dev/null && git rev-parse --git-dir > /dev/null 2>&1; then
         echo -n "$(git_prompt_short_sha)%{$reset_color%}"
@@ -31,7 +33,7 @@ function get_right_prompt() {
 PROMPT=$'\n'$LAMBDA'\
  %{$fg_bold[$USERCOLOR]%}%n\
  %{$fg_no_bold[magenta]%}[%'${LAMBDA_MOD_N_DIR_LEVELS:-3}'~]\
- $(_venv_info_prompt)$(check_git_prompt_info)\
+ $(_venv_info_prompt)$(_prompt_python_version)$(check_git_prompt_info)\
 %{$reset_color%}'
 
 RPROMPT='$(get_right_prompt)'
