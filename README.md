@@ -11,3 +11,4 @@ Every folder contain its own `README.md` file with description, installation ste
 3) [PowerShell Settings](./PowerShell/)
 4) [Tmux Settings](./Tmux/)
 
+To clone repository with its [submodules](./Tmux/.tmux/plugins/) use `--recurse-submodules` key with `git clone`
