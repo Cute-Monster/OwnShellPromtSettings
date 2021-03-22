@@ -1,0 +1,6 @@
+pane	Dev	1	:zsh	0	:#-	1	:/home/cruntov	1	zsh	:
+pane	Dev	2	:sudo	1	:*	1	:/home/cruntov/Ansible_tasks/Final_Project/SonarQube/Terraform	1	ssh	:ssh -o Hostname=18.197.127.129 AWS_FR_Sonar
+pane	Dev	2	:sudo	1	:*	2	:/home/cruntov/.ssh	0	zsh	:
+window	Dev	1	0	:#-	cafe,120x29,0,0,1
+window	Dev	2	1	:*	68b8,120x29,0,0[120x15,0,0,2,120x13,0,16,3]
+state	Dev	

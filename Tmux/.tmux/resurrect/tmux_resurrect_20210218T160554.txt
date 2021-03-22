@@ -1,0 +1,6 @@
+pane	Dev	1	:ssh	0	:-	1	:/home/cruntov	1	ssh	:ssh -i /home/cruntov/.ssh/CRuntov_AWS ec2-user@3.121.200.127
+pane	Dev	2	:vim	1	:*	1	:/home/cruntov/Ansible_tasks/Final_Project/Kuber_AWS_Deploy/Terraform	0	vim	:vim s3.tf
+pane	Dev	2	:vim	1	:*	2	:/home/cruntov/Ansible_tasks/Final_Project/SonarQube/Terraform	1	vim	:vim s3.tf
+window	Dev	1	0	:-	cafd,120x29,0,0,0
+window	Dev	2	1	:*	c1b5,120x29,0,0[120x14,0,0,1,120x14,0,15,2]
+state	Dev	

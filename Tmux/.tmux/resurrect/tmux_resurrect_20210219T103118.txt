@@ -1,0 +1,5 @@
+pane	Dev	1	:zsh	0	:#-	1	:/home/cruntov	1	zsh	:
+pane	Dev	2	:sudo	1	:*	1	:/home/cruntov/Ansible_tasks/Final_Project/SonarQube/Terraform	1	sudo	:sudo apt install python3-pip
+window	Dev	1	0	:#-	cafd,120x29,0,0,0
+window	Dev	2	1	:*	caff,120x29,0,0,2
+state	Dev	
