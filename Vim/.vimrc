@@ -30,6 +30,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
 
+Plugin 'itchyny/lightline.vim'
+
+" Plugin 'itchyny/lightline.vim'
+Plugin 'airblade/vim-gitgutter'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,7 +52,13 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
-
+" Настройки нижнего цветного бара
+set laststatus=2
+set noshowmode
+" Настройка темы цветового бара
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ }
 
 " Настройки табов для Python, согласно рекоммендациям
 set tabstop=4 
@@ -70,7 +81,7 @@ autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,
 
 syntax on "Включить подсветку синтаксиса
 
-" set nu "Включаем нумерацию строк
+set nu "Включаем нумерацию строк
 set mousehide "Спрятать курсор мыши когда набираем текст
 set mouse=a "Включить поддержку мыши
 set termencoding=utf-8 "Кодировка терминала

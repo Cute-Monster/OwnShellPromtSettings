@@ -14,5 +14,9 @@ sudo apt-get install -y vim
 cp ./Vim/.vimrc ~/.vimrc
 ```
 
+## Installing plugins
+
+After copying custom `.vimrc`, open some file and enter `:PluginInstall!`.
+This will install all plugins listed at `.vimrc` file. To see them running reopen vim and here they are running for you
 
 
