@@ -61,7 +61,39 @@
                     "properties": {
                         "prefix": "\u003c#ffffff\u003eon git:\u003c/\u003e"
                     }
-                }
+                },
+                {
+                    "type": "command",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                      "shell": "bash",
+                      "command": "git rev-parse --short HEAD",
+                      "prefix":"[",
+                      "postfix":"]"
+                    }
+                },
+                {
+                    "type": "battery",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#193549",
+                    "background": "",
+                    "properties": {
+                      "battery_icon": "",
+                      "discharging_icon": "\uE231 ",
+                      "charging_icon": "\uE234 ",
+                      "charged_icon": "\uE22F ",
+                      "color_background": false,
+                      "charged_color": "#4caf50",
+                      "charging_color": "#40c4ff",
+                      "discharging_color": "#ff5722",
+                      "prefix": " [ ",
+                      "postfix": "\uF295 ]",
+                      "display_charging": true,
+                      "display_error": true
+                    }
+                  }
             ]
         },
         {
