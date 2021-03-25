@@ -9,7 +9,7 @@ Contains this steps:
 
 ## Fonts install
 
-To install fonts, which will correctly display unusual symbols just open this fonts folder via explorer at `C:\Windows\Fonts`, then just drag and drop all content from [Fonsts](./Fonts) folder
+To install fonts, which will correctly display unusual symbols just open this fonts folder via explorer at `C:\Windows\Fonts`, then just drag and drop all content from [Fonsts](./Fonts/Meslo) folder
 
 ## Custom themes install
 
