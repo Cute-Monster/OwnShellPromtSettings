@@ -43,7 +43,7 @@
                     "trailing_diamond": "",
                     "properties": {
                         "folder_icon": "",
-                        "folder_separator_icon": "  ",
+                        "folder_separator_icon": "\\",
                         "style": "full"
                     }
                 },
@@ -62,17 +62,17 @@
                         "prefix": "\u003c#ffffff\u003eon git:\u003c/\u003e"
                     }
                 },
-                {
-                    "type": "command",
-                    "style": "plain",
-                    "foreground": "#ffffff",
-                    "properties": {
-                      "shell": "bash",
-                      "command": "git rev-parse --short HEAD",
-                      "prefix":"[",
-                      "postfix":"]"
-                    }
-                },
+                // {
+                //     "type": "command",
+                //     "style": "plain",
+                //     "foreground": "#ffffff",
+                //     "properties": {
+                //       "shell": "bash",
+                //       "command": "git rev-parse --short HEAD",
+                //       "prefix":"[",
+                //       "postfix":"]"
+                //     }
+                // },
                 {
                     "type": "battery",
                     "style": "powerline",
@@ -190,6 +190,26 @@
                     "properties": {
                         "prefix": "",
                         "text": "➜"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "rprompt",
+            "alignment": "right",
+            "horizontal_offset": 0,
+            "vertical_offset": 0,
+            "segments": [
+                {
+                    "type": "command",
+                    "style": "plain",
+                    // "foreground": "#ffffff",
+                    "foreground": "#B8B80A",
+                    "properties": {
+                      "shell": "bash",
+                      "command": "git rev-parse --short HEAD",
+                      "prefix":"\u003c#ffffff\u003e[\u003c/\u003e",
+                      "postfix":"\u003c#ffffff\u003e]\u003c/\u003e"
                     }
                 }
             ]
