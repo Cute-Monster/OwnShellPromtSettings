@@ -1,4 +1,4 @@
-## Startship terminal prompt 
+## Starship terminal prompt 
 
 ### Prerequisites
 
